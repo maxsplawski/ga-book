@@ -3,6 +3,7 @@ package chapter1;
 import java.util.Optional;
 
 public class BinarySearch {
+    
     public static void main(String[] args) {
         System.out.println(binarySearch(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 54).orElse(-1));
     }
